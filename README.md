@@ -1,14 +1,14 @@
 # SandAdmin Skills
 
-Reusable Codex skills for establishing, extending, releasing, and verifying a PostgreSQL-based SandAdmin host and its optional Sand plugins.
+Reusable Codex skills for establishing, releasing, and verifying a PostgreSQL-based SandAdmin host and independently maintained Sand plugins.
 
 ## Included skills
 
 ### `sandadmin-host-plugins`
 
-Use when establishing or taking over a SandAdmin repository, creating or changing a `sand-*` plugin, synchronizing a plugin into a host, preparing a release, or assessing SandAI/SandIAM lifecycle acceptance.
+Use when establishing or taking over a SandAdmin host, publishing a `sand-*` plugin from its independent repository, updating the SandAdmin catalog, synchronizing a plugin into a host, or assessing lifecycle acceptance.
 
-It enforces a clear separation between the zero-plugin SandAdmin host, an authoritative plugin source workspace, host synchronization, and real lifecycle evidence.
+It enforces a clear separation between the zero-plugin SandAdmin host, each plugin's authoritative repository, catalog metadata, host synchronization, and real lifecycle evidence.
 
 ## Install
 

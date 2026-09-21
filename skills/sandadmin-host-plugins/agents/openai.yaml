@@ -1,4 +1,4 @@
 interface:
   display_name: "SandAdmin Host and Plugins"
-  short_description: "Build, release, and verify SandAdmin plugins safely"
-  default_prompt: "Use $sandadmin-host-plugins to classify this SandAdmin change and prepare its delivery path."
+  short_description: "Release independent SandAdmin plugins safely"
+  default_prompt: "Use $sandadmin-host-plugins to classify this SandAdmin host or plugin release change and prepare its delivery path."
