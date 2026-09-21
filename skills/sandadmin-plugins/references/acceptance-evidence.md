@@ -1,12 +1,12 @@
 # SandAdmin plugin acceptance evidence
 
-Use this checklist after the authoritative plugin source is committed and synchronized into an independent validation host.
+Use this checklist after the authoritative plugin source is committed and prepared in an independent SandAdmin demo.
 
 ## Required records
 
-- Host repository, branch, commit, PostgreSQL version, plugin source revision, package version, synchronization method, and validation time.
+- SandAdmin repository, branch, commit, PostgreSQL version, plugin source revision, package version, preparation method, and validation time.
 - Plugin repository, Release tag, asset name, downloaded SHA-256, and matching SandAdmin catalog entry.
-- A clean zero-business-plugin host installation/migration/login/basic-admin result.
+- A clean zero-business-plugin SandAdmin installation/migration/login/basic-admin result.
 - Exact commands or requests, expected and observed outcomes, fixture identifiers, and cleanup confirmation.
 
 ## Repository and package proof
@@ -19,19 +19,19 @@ Use this checklist after the authoritative plugin source is committed and synchr
 
 ## Lifecycle proof
 
-1. Install the plugin in the independent host.
+1. Install the plugin in the isolated SandAdmin demo.
 2. Confirm its load state, menus, permissions, and one core business path.
 3. Upgrade from a real prior plugin version to the target version.
 4. Uninstall the plugin.
 5. Verify plugin-specific tables, configuration, jobs, files, and registration records have the documented cleanup state.
-6. Confirm the zero-plugin host still starts, logs in, and provides basic administration.
+6. Confirm SandAdmin still starts, logs in, and provides basic administration after uninstall.
 
 ## Claim boundaries
 
 - Static: lint, build, SQL dialect scan, package integrity.
 - Package: metadata and package lifecycle entry points parse or execute in isolation.
 - Catalog: trusted repository, tag, asset and digest resolve consistently; no client-controlled URL.
-- Host: actual installed plugin behavior in the verification host.
+- Installation: actual installed plugin behavior in the isolated SandAdmin demo.
 - Deployment: copied or installed into a target environment.
 - Production: only a user-authorized, externally observed result.
 

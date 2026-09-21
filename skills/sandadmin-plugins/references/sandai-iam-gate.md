@@ -16,10 +16,10 @@ Use this reference when changing the SandAI plugin, SandIAM plugin, an identity-
 
 ## Ordered acceptance
 
-1. Confirm the authoritative SandAI package and the exact host synchronization revision.
-2. Complete the SandAI installed-host path and prove synchronization stability.
+1. Confirm the authoritative SandAI package and the exact revision prepared in SandAdmin.
+2. Complete the SandAI installed path and prove the prepared package remains unchanged.
 3. Only then install or migrate SandIAM and test the adapter.
 4. Exercise a real SandAI business API with permitted, denied, and audited outcomes.
 5. Confirm test fixtures, temporary credentials, and audit fixtures have the documented cleanup state.
 
-Do not infer this final step from health checks, package smoke tests, or SandIAM-only host acceptance.
+Do not infer this final step from health checks, package smoke tests, or SandIAM-only installation acceptance.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SandAdmin and Plugins"
+  short_description: "Release independent SandAdmin plugins safely"
+  default_prompt: "Use $sandadmin-plugins to classify this SandAdmin or plugin release change and prepare its delivery path."
